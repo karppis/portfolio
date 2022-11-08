@@ -1,4 +1,12 @@
 .container{
     background: cyan;
     align-items: center;
+    text-align: center;  
+    h1 {
+        font-weight: 700;
+        font-size: 16px;
+        color: rgb(13, 21, 21);
+        background: rgb(73, 112, 243);
+        padding: 10px;
+      }
 }
