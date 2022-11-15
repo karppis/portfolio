@@ -20,9 +20,11 @@ root.render(
   <BrowserRouter>
   <Navbar></Navbar>
     <Routes>
+      <div className={style.body}>
       <Route path='/' element={<App />}></Route>
       <Route path='example' element={<SomeExampleComponent />} />
       <Route path='/first' element={<MyFirstComponent />} />
+      </div>
     </Routes>
   </BrowserRouter>
 </React.StrictMode>
