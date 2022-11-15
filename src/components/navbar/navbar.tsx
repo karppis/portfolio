@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom"
-import style from './components/navbar/navbar.module.scss'
+import style from './components/navbar/navbar.module.scss';
 type NavbarProps = {
 
 }
