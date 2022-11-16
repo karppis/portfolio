@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-
+import style from './clickCount.module.scss'
 function ClickCount() {
   // Declare a new state variable, which we'll call "count"
   const [count, setCount] = useState(0);
@@ -9,7 +9,7 @@ function ClickCount() {
   });
   
   return (
-    <div>
+    <div className={style.container}>
       <p>You clicked {count} times</p>
       <button id= "btn" onClick={() => setCount(count + 1)}>
         Click me

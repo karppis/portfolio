@@ -8,9 +8,9 @@ type NavbarProps = {
 const Navbar: React.FC<NavbarProps> = () => {
   return (
     <div className={styles.container}>
-        <Link to="/">Home</Link>
-        <Link to="example">Example Component</Link>
-        <Link to="first">My First Component</Link>
+        <Link to="/">   Home   </Link>&nbsp;
+        <Link to="example">   Example Component   </Link>&nbsp;
+        <Link to="first">   My First Component   </Link>&nbsp;
     </div>
   )
 }

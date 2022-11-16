@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import style from './index.module.scss';
+import _style from './index.module.scss';
 import {
   BrowserRouter,
   Routes,
@@ -19,12 +19,10 @@ root.render(
   <React.StrictMode>
   <BrowserRouter>
   <Navbar></Navbar>
-    <Routes>
-      <div className={style.body}>
+    <Routes>      
       <Route path='/' element={<App />}></Route>
       <Route path='example' element={<SomeExampleComponent />} />
-      <Route path='/first' element={<MyFirstComponent />} />
-      </div>
+      <Route path='/first' element={<MyFirstComponent />} />    
     </Routes>
   </BrowserRouter>
 </React.StrictMode>
